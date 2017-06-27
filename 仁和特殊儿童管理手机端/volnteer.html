@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="format-detection"content="telephone=yes">
+		<title>志愿者报名</title>
+		<link href="css/erjihuiStyle.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> 
+		<script type="text/javascript" src="js/ejhSite.js"></script>
+		<script type="text/javascript" src="js/checkform.js" ></script>
+	</head>
+	<body>
+		<!--menu begin-->
+		<div class="indexHeader" style="display:none;"><span class="logo"><img src="img/logo2.jpg" /><span>仁和特殊儿童管理信息平台</span></span><a href="javascript:void(0)" class="topicoBt close">关闭</a></div>
+		<div class="menuList">
+  			<ul>
+			    <li><a href="index.html">首页</a></li>
+			    <li><a href="jggk.html">机构概况</a></li>
+			    <li><a href="javascript:void(0)" class="menuP">慈善新闻<span class="menuArr"></span></a>
+			      <ul class="green sonMenu">
+			        <li><a href="">行业新闻</a>
+			        <li><a href="">本地新闻</a>
+			        <li><a href="">慈善动态</a>
+			      </ul>
+    			</li>
+                <li><a href="transparentwindow.html" class="menuP">透明慈善窗</a></li>
+			    <li><a href="volnteer.html">志愿者报名</a></li>
+			    <li><a href="contact.html">联系我们</a></li>
+  			</ul>
+		</div>
+		<!--menu end-->
+		<div class="wrapMain">
+  		<header class="white"><a href="index.html" class="topicoBt home">首页</a><a href="javascript:void(0)" class="topicoBt menu">菜单</a><span onclick="window.scrollTo(0,0);">志愿者报名</span></header>
+  		<div class="hr45"></div>
+  		<div class="content">
+            <div class="c_container_wrap">
+                <div class="c_container">
+                    <p>一、招募坐班志愿者</p>
+                    <p>二、招募宣传推广志愿者</p>
+                    <p>三、招募条件</p>
+                    <p>四、志愿者保障</p>
+                    <form id="register" name="register" method="post">
+                    	<div class="formRegister">
+	                    	<label  for="firstName">
+	                    		<span>姓名</span><span style="color: red;">*</span><span id="errorPost1"></span><br />
+	                    		<input type="text" id="firstName" name="firstName" title="姓名" placeholder="请输入您的姓名" class="text" required/>
+	                    	</label>
+                    	</div>
+                    	
+                    	<div class="formRegister">
+	                    	 <label for="emailAddress">
+	                    	 	<span>邮箱</span><span style="color: red;">*</span><span id="errorPost2"></span><br />
+	    						<input type="email" id="emailAddress" name="emailAddress" title="邮箱" placeholder="请输入您的邮箱" class="text"  required />
+	 						 </label>
+						</div>
+						
+						<div class="formRegister">
+	                    	<label for="phoneNumber">
+	                    		<span>手机号</span><span style="color: red;">*</span><span id="errorPost3"></span><br />
+	                    		<input type="number" id="phoneNumber" name="phoneNumber" title="电话" placeholder="请输入您的电话" class="text"  required />
+	                    	</label>
+                    	</div>
+                    	
+                    	<div class="formRegister">
+	                    	<label for="Sex">
+	                    		<span>性别</span><span style="color: red;">*</span><br />
+	                    		<input type="radio" />男&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;<input type="radio" />女
+	                    	</label>
+	                    </div>
+	                    
+	                    <div class="formRegister">
+	                    	<label for="weChat">
+	                    		<span>微信号</span><br />
+	                    		<input type="text" name="weChat" title="微信" class="text" />
+	                    	</label>
+	                    </div>
+	                    
+	                    <div class="formRegister">
+	                    	<label for="hobby">
+	                    		<span>特长</span><br />
+	                    		<input type="text" name="hobby" title="特长" class="text" />
+	                    	</label>
+	                    </div>
+	                    
+                    	<div class="formRegister">
+                    		<input type="submit" value="提交" id="upButton"/>
+                    	</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<footer>Copyright © 2017 xxxxxx All Rights Reserved<br>京ICP备000000号  |  版权所有 仁和特殊儿童管理信息平台</footer>
+	</body>
+</html>
